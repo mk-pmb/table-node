@@ -571,6 +571,9 @@ console.log(output);
 ╚══════════════════════╝
 ```
 
+For advanced truncation using your own function (e.g. to try abbreviations before omitting words), see the [truncateTableData function](src/truncateTableData.js).
+
+
 <h3 id="table-usage-text-wrapping">Text Wrapping</h3>
 
 `table` package implements auto text wrapping, i.e. text that has width greater than the container width will be separated into multiple lines, e.g.
